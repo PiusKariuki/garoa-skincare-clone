@@ -1,0 +1,87 @@
+#hero-bg {
+  background: url("/img/tara.jpg") no-repeat center;
+  background-size: cover;
+  transition: width 2s ease, height 2s ease;
+}
+#treat {
+  left: 33%;
+}
+
+#your {
+  top: 33%;
+}
+
+#skin {
+  top: 33%;
+}
+#in {
+  top: 41%;
+}
+
+#every {
+  top: 41%;
+}
+#season {
+}
+#shop-btn {
+  top: 65%;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.2rem 2rem;
+  height: 2rem;
+  background-color: #fff;
+  transition: background-color 1s ease, color 1s ease;
+  animation: btn-enlarge 2s ease-out 1;
+}
+
+#shop-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@keyframes btn-enlarge {
+  0% {
+    top: 90%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 0rem;
+    padding: 0;
+    color: #fff;
+  }
+  100% {
+    top: 65%;
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero-bg {
+    background: url("/img/tara.jpg") no-repeat 40%;
+    background-size: cover;
+    transition: width 2s ease, height 2s ease-out;
+  }
+
+  #treat {
+    top: 26%;
+  }
+  #your {
+    left: 49%;
+  }
+
+  #skin {
+    top: 26%;
+  }
+  #in {
+    top: 41%;
+  }
+
+  #every {
+    left: 40%;
+  }
+  #season {
+    top: 41%;
+  }
+}
