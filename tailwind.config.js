@@ -20,16 +20,21 @@ module.exports = {
         sans: ['"Zen Kurenaido"', "sans-serif"],
       },
       fontSize: {
-        five: "5.3rem",
+        five: "4.9rem",
       },
       spacing: {
         three: "3%",
         five: "5%",
         ten: "10%",
+        26: "26%",
         thirty: "30%",
+        33: "33%",
         forty: "40%",
+        41: "41%",
+        49: "49%",
         fifty: "50%",
         sixty: "60%",
+        65: "65%",
         eighty: "80%",
         ninety: "90%",
         ninetyFive: "95%",
@@ -44,6 +49,7 @@ module.exports = {
         fadeInLeft: require("./src/shared/animations.js").fadeInLeft,
         fadeInRight: require("./src/shared/animations.js").fadeInRight,
         fadeInBottom: require("./src/shared/animations.js").fadeInBottom,
+        btnEnlarge: require("./src/shared/animations.js").btnEnlarge,
       },
 
       animation: {
@@ -55,6 +61,7 @@ module.exports = {
         fadeInLeft: "fadeInLeft 1s ease-out forwards",
         fadeInRight: "fadeInRight 1s ease-out forwards",
         fadeInBottom: "fadeInBottom 2s ease-out forwards",
+        btnEnlarge: "btnEnlarge 2s ease-out 1",
       },
     },
   },

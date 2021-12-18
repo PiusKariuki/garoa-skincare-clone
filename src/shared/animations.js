@@ -102,6 +102,24 @@ const animations = {
       top: "41%",
     },
   },
+  // btn animations
+  btnEnlarge: {
+    "0%": {
+      top: "90%",
+      width: "2rem",
+      height: "2rem",
+      borderRadius: "50%",
+      backgroundColor: "#fff",
+      fontSize: "0rem",
+      padding: "0",
+      color: "#fff",
+    },
+    "100%": {
+      top: "65%",
+      backgroundColor: "#fff",
+      color: "#000",
+    },
+  },
 };
 
 module.exports = animations;
