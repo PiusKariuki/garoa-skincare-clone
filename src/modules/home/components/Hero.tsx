@@ -74,6 +74,7 @@ const Hero: React.FC = (): JSX.Element => {
           height: "2rem",
           borderRadius: "50%",
           padding: "0",
+          fontSize: "0rem"
         }}
         whileInView={{
           width: "8rem",
