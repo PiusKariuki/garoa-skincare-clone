@@ -8,7 +8,7 @@ const Hero: React.FC = (): JSX.Element => {
     <div className="flex justify-around w-full h-full relative">
       <motion.div
         animate={{scaleX: 0.94, scaleY: 0.88}}
-        transition={{delay: 2, duration: 2}}
+        transition={{delay: 2.5, duration: 2.5}}
         className="mt-8 w-full h-full rounded-2xl"
         id="hero-bg"
       ></motion.div>
