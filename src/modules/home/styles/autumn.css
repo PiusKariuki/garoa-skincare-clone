@@ -1,0 +1,44 @@
+#fall1{
+    width: 48%;
+    height: 20%;
+    background: url("/img/artemis.jpg") no-repeat center;
+    background-size: cover;
+    transform: translate3d(0px, 1.24594px, 0px);
+}
+
+#fall2{
+    width: 24%;
+    height: 33%;
+    background: url("/img/maria.jpg") no-repeat center;
+    background-size: cover;
+}
+#fall3{
+    width: 18%;
+    height: 33%;
+    background: url("/img/sora.jpg") no-repeat center;
+    background-size: cover;
+}
+#fall4{
+    width: 56%;
+    height: 18%;
+    background: url("/img/kadri.jpg") no-repeat center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    #fall1{
+        width: 29%;
+    }
+    #fall2{
+        width: 12%;
+        height: 37%;
+    }
+    #fall3{
+        width: 16%;
+        height: 40%;
+    }
+    #fall4{
+        width: 30%;
+        height: 33%;
+    }
+}

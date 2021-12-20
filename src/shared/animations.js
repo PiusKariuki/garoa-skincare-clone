@@ -102,6 +102,58 @@ const animations = {
       top: "41%",
     },
   },
+
+  // ..............animations above work on absolute positioned elements only
+  marchInLeft: {
+    "0%": {
+      marginLeft: "12rem",
+      opacity: "0%",
+    },
+    "60%": {
+      opacity: "1",
+    },
+    "100%": {
+      marginLeft: "0rem",
+    },
+  },
+
+  marchInTop: {
+    "0%": {
+      marginTop: "8rem",
+      opacity: "0%",
+    },
+    "60%": {
+      opacity: "1",
+    },
+    "100%": {
+      marginTop: "0rem",
+    },
+  },
+  marchInRight: {
+    "0%": {
+      marginRight: "8rem",
+      opacity: "0%",
+    },
+    "60%": {
+      opacity: "1",
+    },
+    "100%": {
+      marginRight: "0rem",
+    },
+  },
+  marchInBottom: {
+    "0%": {
+      marginBottom: "8rem",
+      opacity: "0%",
+    },
+    "60%": {
+      opacity: "1",
+    },
+    "100%": {
+      marginBottom: "0rem",
+    },
+  },
+
   // btn animations
   btnEnlarge: {
     "0%": {
