@@ -4,12 +4,10 @@
   transition: width 2s ease, height 2s ease;
 }
 
-
 @media (min-width: 768px) {
   #hero-bg {
     background: url("/img/skin.jpg") no-repeat 40%;
     background-size: cover;
     transition: width 2s ease, height 2s ease-out;
   }
-
 }
