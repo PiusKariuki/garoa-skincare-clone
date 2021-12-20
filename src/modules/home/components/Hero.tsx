@@ -1,22 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import "../styles/hero.css";
 
 const Hero: React.FC = (): JSX.Element => {
-  const [bgName, setBgName] = useState<string>(
-    "mt-8 w-full h-full rounded-2xl"
-  );
-  useEffect(() => {
-    setBgName(
-      "w-ninety h-eighty mt-8 rounded-2xl justify-self-center md:w-ninetyFive"
-    );
-  }, []);
-
-  const handleScroll = () => {};
 
   return (
-    <div className="flex justify-around w-full h-full relative mt-8">
-      <div className={`${bgName}`} id="hero-bg" onScroll={handleScroll}></div>
+    <div className="flex justify-around w-full h-full relative">
+      <motion.div
+        animate={{scaleX: 0.94, scaleY: 0.88}}
+        transition={{delay: 0.5, duration: 2}}
+        className="mt-8 w-full h-full rounded-2xl"
+        id="hero-bg"
+      ></motion.div>
       <motion.p
         initial={{ opacity: 0, y: -36 }}
         whileInView={{ opacity: 1, y: 0 }}

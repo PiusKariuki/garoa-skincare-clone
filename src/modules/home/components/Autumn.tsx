@@ -4,7 +4,7 @@ import "../styles/autumn.css";
 
 const Autumn: React.FC = (): JSX.Element => {
   return (
-    <div className="flex  h-screen relative justify-around">
+    <div className="flex  h-screen relative justify-around mt-24">
       <div
         className="absolute right-five top-0 md:right-0 z-10 rounded-xl"
         id="fall1"

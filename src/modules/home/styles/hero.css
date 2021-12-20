@@ -7,7 +7,7 @@
 
 @media (min-width: 768px) {
   #hero-bg {
-    background: url("/img/tara.jpg") no-repeat 40%;
+    background: url("/img/studio.jpg") no-repeat 40%;
     background-size: cover;
     transition: width 2s ease, height 2s ease-out;
   }
