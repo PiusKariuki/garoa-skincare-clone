@@ -1,33 +1,37 @@
-import React, { useRef } from "react";
-import { motion,  useElementScroll, } from "framer-motion";
+import React from "react";
+import { useViewportScroll, motion, useTransform } from "framer-motion";
 import "../styles/autumn.css";
 
 const Autumn: React.FC = (): JSX.Element => {
-  const ref1 = useRef<any>();
-  const { scrollY } = useElementScroll(ref1);
+
+  const { scrollY } = useViewportScroll();
+  const y1 = useTransform(scrollY, [600, 1000], [0, -100]);
+  const y2 = useTransform(scrollY, [0, 600], [0, -300]);
+
   
 
   return (
     <>
-      <div ref={ref1} className="flex   h-screen relative justify-around mt-24">
+      <div className="flex   h-screen relative justify-around mt-24">
         {/* absloutes */}
         <div
           className="absolute right-five top-0 md:right-0 z-10 rounded-xl"
           id="fall1"
         ></div>
         <motion.div
-          style={{ translateX: scrollY }}
-          className="absolute right-0 top-five md:top-ten md:right-twenty  z-20 rounded-lg"
+          style={{ y: y2 }}
+          className="absolute right-0 top-33 md:right-twenty  z-20 rounded-lg"
           id="fall2"
         ></motion.div>
         <div
           className="absolute left-0 bottom-five  md:left-13 md:bottom-13 z-20 rounded-xl"
           id="fall3"
         ></div>
-        <div
+        <motion.div
+          style={{ y: y1 }}
           className="absolute left-0 bottom-0  md:left-five z-10 rounded-xl"
           id="fall4"
-        ></div>
+        ></motion.div>
 
         {/* flexes */}
         <div
