@@ -4,6 +4,76 @@
   transition: width 2s ease, height 2s ease;
 }
 
+.words {
+  font-weight: 600;
+  position: absolute;
+}
+
+@media (min-width: 200px) {
+  .words {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 300px) {
+  .words {
+    font-size: 2.8rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 375px) {
+  .words {
+    font-size: 3.2rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 425px) {
+  .words {
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 540px) {
+}
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+   .words {
+    font-size: 3.1rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px) {
+  .words {
+    font-size: 4.9rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1280px) {
+  .words {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1440px) {
+  .words {
+    font-size: 6.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1536px) {
+  .words {
+    font-size: 8rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 2560px) {
+   .words {
+    font-size: 8.3rem;
+    line-height: 1;
+  }
+}
+
 @media (min-width: 768px) {
   #hero-bg {
     background: url("/img/skin.jpg") no-repeat 40%;

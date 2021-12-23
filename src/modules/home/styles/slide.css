@@ -1,0 +1,11 @@
+#parent > div {
+  width: 6.25rem;
+  height: 6.25rem;
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+#p1 {
+  background: url("/img/diamond.jpg");
+  background-size: cover;
+}

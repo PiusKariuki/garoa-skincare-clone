@@ -3,12 +3,11 @@ import { motion } from "framer-motion";
 import "../styles/hero.css";
 
 const Hero: React.FC = (): JSX.Element => {
-
   return (
     <div className="flex justify-around w-full h-full relative">
       <motion.div
-        animate={{scaleX: 0.94, scaleY: 0.88}}
-        transition={{delay: 2.5, duration: 2.5}}
+        animate={{ scaleX: 0.94, scaleY: 0.88 }}
+        transition={{ delay: 2.5, duration: 2.5 }}
         className="mt-8 w-full h-full rounded-2xl"
         id="hero-bg"
       ></motion.div>
@@ -16,8 +15,9 @@ const Hero: React.FC = (): JSX.Element => {
         initial={{ opacity: 0, y: -36 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.04 }}
-        className="little:text-4xl xs:text-5xl xl:text-five 2xl:text-9xl font-semibold 
-        absolute left-33 top-26"
+        className="words 
+        left-[35%] top-[26%]  tab:left-[40%] md:left-[33%]  lg:left-[24%] lg:top-[47%] 
+        xl:left-[27%] xl:top-[30%]  3xl:left-[33%]"
       >
         Treat
       </motion.p>
@@ -25,8 +25,8 @@ const Hero: React.FC = (): JSX.Element => {
         initial={{ opacity: 0, x: -36 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.04 }}
-        className="little:text-4xl xs:text-5xl xl:text-five 2xl:text-9xl font-semibold 
-        absolute top-33 left-25 md:left-49 md:top-26"
+        className="words top-[33%] left-[25%] 425:left-[27%] md:left-[49%] md:top-[26%] lg:left-[45%] lg:top-[47%]
+        xl:top-[30%] 3xl:left-[46%]"
       >
         your
       </motion.p>
@@ -34,8 +34,8 @@ const Hero: React.FC = (): JSX.Element => {
         initial={{ opacity: 0, x: 36 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.04 }}
-        className=" little:text-4xl xs:text-5xl xl:text-five 2xl:text-9xl font-semibold 
-        absolute top-33 right-23 md:top-26 md:right-thirty"
+        className="words top-[33%] right-[23%] md:top-[26%] md:right-[28%] lg:right-[25%] lg:top-[47%]
+        xl:top-[30%] xl:right-[30%]  3xl:right-[36%]"
       >
         skin
       </motion.p>
@@ -43,8 +43,8 @@ const Hero: React.FC = (): JSX.Element => {
         initial={{ opacity: 0, x: -36 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.04 }}
-        className=" little:text-4xl xs:text-5xl xl:text-five 2xl:text-9xl font-semibold 
-        absolute top-41 left-thirty"
+        className="words top-[41%] left-[30%] md:left-[33%] lg:top-[55%] lg:left-[23%] 
+        xl:top-[43%] xl:left-[28%] 2xl:top-[40%] 3xl:top-[37%] 3xl:left-[32%]"
       >
         in
       </motion.p>
@@ -52,8 +52,8 @@ const Hero: React.FC = (): JSX.Element => {
         initial={{ opacity: 0, x: 36 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.04 }}
-        className=" little:text-4xl xs:text-5xl xl:text-five 2xl:text-9xl font-semibold 
-        absolute top-41 right-23 md:left-forty"
+        className="words top-[41%] right-[23%] md:left-[40%] lg:top-[55%] lg:left-[33%]
+        xl:top-[43%] xl:left-[35%] 2xl:top-[40%] 3xl:top-[37%] 3xl:left-[37%]"
       >
         every
       </motion.p>
@@ -61,8 +61,8 @@ const Hero: React.FC = (): JSX.Element => {
         initial={{ opacity: 0, y: 36 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.04 }}
-        className=" little:text-4xl xs:text-5xl xl:text-five 2xl:text-9xl font-semibold 
-        absolute top-49 md:top-41 md:right-thirty"
+        className="words top-[49%] md:top-[41%] md:right-[28%] lg:top-[55%] lg:right-[25%]
+        xl:top-[43%]  xl:right-[29%] 2xl:top-[40%] 3xl:top-[37%] 3xl:right-[37%]"
       >
         season
       </motion.p>
@@ -74,7 +74,7 @@ const Hero: React.FC = (): JSX.Element => {
           height: "2rem",
           borderRadius: "50%",
           padding: "0",
-          fontSize: "0rem"
+          fontSize: "0rem",
         }}
         whileInView={{
           width: "8rem",
@@ -83,7 +83,7 @@ const Hero: React.FC = (): JSX.Element => {
           paddingBottom: "0.5rem",
           paddingLeft: "1rem",
           paddingRight: "1rem",
-          top: "65%",
+          top: "70%",
           backgroundColor: "#fff",
           color: "#000",
           borderRadius: "1rem",
@@ -94,7 +94,7 @@ const Hero: React.FC = (): JSX.Element => {
           color: "#fff",
         }}
         transition={{ duration: 1, delay: 0.04 }}
-        className="absolute top-65 text-semibold"
+        className="absolute  text-bold"
       >
         SHOP NOW
       </motion.button>
