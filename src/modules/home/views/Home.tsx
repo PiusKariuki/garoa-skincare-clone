@@ -1,7 +1,6 @@
 import React from "react";
 import Autumn from "../components/Autumn";
 import Hero from "../components/Hero";
-import Slide from "../components/Slide";
 import Topbar from "../components/Topbar";
 
 import "../styles/home.css";
@@ -14,7 +13,6 @@ const Home: React.FC = (): JSX.Element => {
       </div>
       <Hero />
       <Autumn />
-      {/* <Slide /> */}
     </div>
   );
 };

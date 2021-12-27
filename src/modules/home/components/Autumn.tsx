@@ -5,7 +5,7 @@ import "../styles/autumn.css";
 const Autumn: React.FC = (): JSX.Element => {
   const { scrollY } = useViewportScroll();
   const y1 = useTransform(scrollY, [600, 800], [0, -50]);
-  const y2 = useTransform(scrollY, [0, 600], [0, -300]);
+  const y2 = useTransform(scrollY, [0, 600], [0, -260]);
 
   return (
     <>
